@@ -1,28 +1,32 @@
-  /* --------
-  ---body style--------- */
+  /* ----------------------------
+             body style
+  -------------------------------*/
   body{
     font-family: Poppins;
-    margin-left: 40px;
 }
- /*-------------------
-     header style ------------*/
-header h4{
+ /*------------------------------
+          header style 
+---------------------------------*/
+.headding-section h3{
     font-size: 24px;
     color: #3A3A3A;
     font-weight: bold;
+    margin-left: 40px;
 }
-/* ---------------
-------container style-------- */
+/* ------------------------------
+        First section style
+-------------------------------- */
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 100px;
+    margin-left: 40px;
 }
-.half-width h1{
+
+.half-width-headding{
     font-size: 52px;
     color: #3A3A3A;
 }
-.half-width p{
+.half-width-paragraph{
     font-weight: 600;
     font-size: 16px;
 }
@@ -43,39 +47,41 @@ header h4{
 .half-width img:hover{
     width: 550px;
 }
-/*---------------
---------- second section style------------- */
+/*-------------------------------- 
+      second section style
+---------------------------------- */
 .second-section-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
+    margin-left: 40px;
 }
 .popular-collection{
     text-align: center;
-    padding: 30px 0;
+    padding: 7px 0;
     font-weight: 600;
 }
 .card{
     width: 329px;
     height: 476px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 40px rgba(10, 10, 10, 0.15);
     border-radius: 5px;
 }
 .card img{
-    width: 300px;
-    height: 256px;
+    width: 250px;
+    height: 200px;
     border-radius: 5px;
     margin: auto;
     display: block;
 }
-.card h4{
+.card-hedding-3{
     font-weight: 500;
     font-size: 28px;
     color: #18191F;
     margin-left: 20px;
 }
-.card h3{
+.card-headding-four{
     font-size: 24px;
     margin-left: 20px;
 } 
@@ -84,4 +90,31 @@ header h4{
     margin-left: 20px;
     padding: 3px 0;
    
+}
+.see-more{
+    text-align: end;
+}
+/* -----------------------------
+       last section style
+-------------------------------- */
+.last-section  {
+    height: 300px;
+    width: auto;
+    color: white;
+    text-align: center;
+    background-color: thistle;
+}
+
+/* ---------------------
+      footer style
+ ----------------------- */
+.footer-section{
+    height: 200px;
+    width: auto;
+    background-color: #0A0826;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-headding{
+    padding-top: 20px;
 }
